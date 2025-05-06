@@ -61,3 +61,19 @@ body {
     align-items: center;
     text-align: center;
 }
+
+/*container*/
+.container section{
+    border: 1px solid var(--rojoOscuro);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.container section h2{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
