@@ -150,3 +150,28 @@ body {
   .carta-contenedor{
     margin-bottom: 1rem;
   }
+
+  .contenedor-carrusel{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 1;
+  }
+    .carousel-caption {
+      z-index: 2; 
+  }
+
+  .carousel-caption a{
+    text-decoration: none;
+    color: var(--blanco);
+  }
