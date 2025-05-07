@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diamond-fill figura-navbar" viewBox="0 0 16 16">
+              <a class="navbar-brand d-flex align-items-center" href="#principal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diamond-fill figura-navbar" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z"/>
               </svg>SIMAN</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +26,22 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Quiénes somos</a>
+                    <a class="nav-link active" aria-current="page" href="#quienes-somos">Quiénes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                    <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sucursales</a>
+                    <a class="nav-link active" aria-current="page" href="#sucursales">Sucursales</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <main>
+    <main id="principal">
             <section class="bienvenida">
-                <div class="bienvenida_contenido">
+                <div class="bienvenida_contenido p-5">
                     <h1>¡Bienvenido a SIMAN!</h1>
                     <h2> Descubre lo mejor en moda, tecnología y estilo para tu hogar.</h2>
                 </div>
@@ -49,7 +49,7 @@
     </main>
     <div class="container">
       <!--SECCION QUIENES SOMOS-->
-      <section class="quienes-somos">
+      <section id="quienes-somos">
         <h2>¿Quienes somos?</h2>
         <figure class="m-4 text-center"><img src="./img/antiguo.jpg" class="img-fluid"></figure>
         <p class="text-justify"><strong>SIMAN: Estilo y Calidad desde 1921</strong><br>
@@ -73,7 +73,7 @@
           </article>
       </section>
       <!--SECCION PRODUCTOS-->
-      <section class="productos">
+      <section id="productos">
         <h2 class="mb-3">Productos</h2>
         <p class="text-justify">En Siman, cada producto ha sido cuidadosamente seleccionado para brindarte calidad, estilo y funcionalidad. Nuestra amplia gama de categorías está pensada para acompañarte en cada momento de tu vida: desde tu look diario hasta la tecnología que usas y el confort de tu hogar.</p>
         <div class="row mt-1">
@@ -177,7 +177,7 @@
         </div>
       </section>
       <!-- SECCION SUCURSALES-->
-      <section class="sucursales">
+      <section id="sucursales">
         <h2 class="mb-4">Sucursales</h2>
         <div class="contenedor-carrusel">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -251,7 +251,14 @@
         </div>
       </section>
     </div>
-    <footer></footer>
+    <footer class="bg-dark">
+      <h6>© 2025 Siman. Todos los derechos reservados.</h6>
+      <div>
+        <a href="https://www.facebook.com/simanelsalvador/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/almacenessiman_sv/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://x.com/simanelsalvador" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
